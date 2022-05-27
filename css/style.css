@@ -1,0 +1,17 @@
+body{
+	background-color: orange;
+}
+#jumbotron, #featured{
+	padding: 30px;
+}
+#about{
+	background-color: #fff;
+}
+.featured-inner{
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+footer a:link{
+	color: #fff;
+
+}
