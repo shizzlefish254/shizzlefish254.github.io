@@ -1,4 +1,7 @@
 body{
+	/*background-color: #7DCD85;*/
+}
+.adbar, footer, #featured{
 	background-color: orange;
 }
 #jumbotron, #featured{
@@ -13,5 +16,10 @@ body{
 }
 footer a:link{
 	color: #fff;
-
+}
+.widesearch{
+	width: 600px;
+}
+.breadcrumb{
+	padding: 10px 0px;
 }

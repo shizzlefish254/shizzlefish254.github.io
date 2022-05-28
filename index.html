@@ -8,33 +8,39 @@
         <link rel="stylesheet" href="css/style.css" />
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
-        <style type="text/css">
-            #id{background-color: #bebebe;}
-        </style>
     </head>
     <body>
+        <!-- AD Bar -->
+        <div class="adbar">
+            <div class="uk-container uk-text-center">
+                <img src="img/KE_L'Oreal_SBD_Generic_0222_STB.gif">
+            </div>            
+        </div>
+
         <!-- Main Navigation -->
         <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
         <nav class="uk-navbar-container" uk-navbar>
             <div class="uk-navbar-left">
-                <a href="" class="uk-navbar-item uk-logo">ShizzleFish</a>
-                <ul class="uk-navbar-nav">
-                    <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>Account</a></li>
-                    <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: cart"></span>Cart</a></li>
-                    <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: bell"></span>Notifications</a></li>
-                    <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: question"></span>Help</a></li>
-                </ul>
+                <a href="#" class="uk-navbar-item uk-logo">ShizzleFish</a>
             </div>
-            <div class="uk-navbar-right">
+            <div class="uk-navbar-center">
                 <div class="uk-navbar-item">
-                    <form class="uk-search uk-search-default">
+                    <form class="uk-search uk-search-default widesearch">
                         <span class="uk-search-icon-flip" uk-search-icon></span>
                         <input class="uk-search-input" type="search" placeholder="Search">
                     </form>
                 </div>
             </div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>Account</a></li>
+                     <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: question"></span>Help</a></li>
+                    <li><a href="#"><span class="uk-icon uk-margin-small-right" uk-icon="icon: cart"></span>Cart</a></li>
+                </ul>
+            </div>
         </nav>
         </div>
+
         <!-- Jumbotron -->
         <div class="uk-section" id="jumbotron">
             <div class="uk-container">
@@ -47,9 +53,9 @@
                             <li class="uk-parent">
                                 <a href="#">Tilapia</a>
                                 <ul class="uk-nav-sub">
-                                    <li><a href="#">Raw Fish</a></li>
-                                    <li><a href="#">Raw Fish Fillet</a></li>
-                                    <li><a href="#">Fried Fish/Fillet</a></li>
+                                    <li><a href="tilapia-raw.html">Raw Fish</a></li>
+                                    <li><a href="tilapia-raw-fillet.html">Raw Fish Fillet</a></li>
+                                    <li><a href="tilapia-fried.html">Fried Fish/Fillet</a></li>
                                 </ul>
                             </li>
                             <li class="uk-parent">
@@ -99,6 +105,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Featured -->
         <div class="uk-section" id="featured">
             <div class="uk-container featured-inner">
