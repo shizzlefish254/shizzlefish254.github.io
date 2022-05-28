@@ -2,7 +2,7 @@ body{
 	/*background-color: #7DCD85;*/
 }
 .adbar, footer, #featured{
-	background-color: orange;
+	background-color: #7DCD85;
 }
 #jumbotron, #featured{
 	padding: 30px;
