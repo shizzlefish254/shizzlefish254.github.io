@@ -8,7 +8,15 @@
         <link rel="stylesheet" href="css/style.css" />
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
+        <script src="js/appml.js"></script>
     </head>
     <body>
+        <!-- AD Bar -->
+        <div class="adbar" appml-include-html="inc_adbar.html"></div>
+
+        <!-- Main Navigation -->
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" appml-include-html="inc_navbar.html"></div>
+
+        <footer class="uk-section" appml-include-html="inc_footer.html"></footer>
     </body>
 </html>

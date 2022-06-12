@@ -15,7 +15,8 @@ body{
 	padding-bottom: 20px;
 }
 footer a:link{
-	color: #fff;
+	color: #fff !important;
+	text-transform: uppercase;
 }
 .widesearch{
 	width: 600px;

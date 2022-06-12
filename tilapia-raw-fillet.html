@@ -8,38 +8,15 @@
         <link rel="stylesheet" href="css/style.css" />
         <script src="js/uikit.min.js"></script>
         <script src="js/uikit-icons.min.js"></script>
+        <script src="js/appml.js"></script>
     </head>
     <body>
         <!-- AD Bar -->
-        <div class="adbar">
-            <div class="uk-container uk-text-center">
-                <img src="img/TOP_AD1.jpg">
-            </div>            
-        </div>
+        <div class="adbar" appml-include-html="inc_adbar.html"></div>
 
         <!-- Main Navigation -->
-        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" >
-        <nav class="uk-navbar-container" uk-navbar>
-            <div class="uk-navbar-left">
-                <a href="index.html" class="uk-navbar-item uk-logo">ShizzleFish</a>
-            </div>
-            <div class="uk-navbar-center">
-                <div class="uk-navbar-item">
-                    <form class="uk-search uk-search-default widesearch">
-                        <span class="uk-search-icon-flip" uk-search-icon></span>
-                        <input class="uk-search-input" type="search" placeholder="Search">
-                    </form>
-                </div>
-            </div>
-            <div class="uk-navbar-right">
-                <ul class="uk-navbar-nav">
-                    <li><a href="account.html"><span class="uk-icon uk-margin-small-right" uk-icon="icon: user"></span>Account</a></li>
-                     <li><a href="help.html"><span class="uk-icon uk-margin-small-right" uk-icon="icon: question"></span>Help</a></li>
-                    <li><a href="cart.html"><span class="uk-icon uk-margin-small-right" uk-icon="icon: cart"></span>Cart</a></li>
-                </ul>
-            </div>
-        </nav>
-        </div>
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky" appml-include-html="inc_navbar.html"></div>
+        
         <!-- Breadcrumb -->
         <div class="uk-container breadcrumb">
             <ul class="uk-breadcrumb">
@@ -113,35 +90,7 @@
             </div>
         </div>
         
-       <footer class="uk-section">
-            <div class="uk-container">
-                <div class="uk-grid uk-child-width-expand uk-grid-match uk-grid-small">
-                    <div>
-                        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
-                            <li class="uk-nav-header">LINKS</li>
-                            <li><a href="about.html"><span class="uk-margin-small-right" uk-icon="icon: info"></span> About Us</a></li>
-                            <li><a href="help.html"><span class="uk-margin-small-right" uk-icon="icon: question"></span> Help Centre</a></li>
-                            <li><a href="careers.html"><span class="uk-margin-small-right" uk-icon="icon: plus-circle"></span> Careers</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
-                            <li class="uk-nav-header">SOCIALS</li>
-                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: facebook"></span> ShizzleFish</a></li>
-                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: twitter"></span> @shizzlefish</a></li>
-                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: whatsapp"></span> 0745535920</a></li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul class="uk-nav-default uk-nav-parent-icon" uk-nav>
-                            <li class="uk-nav-header">CONTACT &AMP; LOCATION</li>
-                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: receiver"></span> 0722 123 456</a></li>
-                            <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: mail"></span> info@shizzlefish.co.ke</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
+       <footer class="uk-section" appml-include-html="inc_footer.html"></footer>
     </body>
 </html>
 
